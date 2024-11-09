@@ -1,4 +1,4 @@
-var jokes = [
+export var jokes = [
 	{
 		id: 1,
 		jokeText: "Why don't scientists trust atoms? Because they make up everything.",
@@ -500,5 +500,3 @@ var jokes = [
 		jokeType: "Food",
 	},
 ];
-
-export default jokes;
