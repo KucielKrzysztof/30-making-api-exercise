@@ -42,7 +42,7 @@ GET  http://localhost:3000/jokes/:id
 Path Variable:
 
 ```json
-id: 1
+"id": 1
 ```
 
 Example response:
@@ -61,13 +61,13 @@ Provide a query parameter for type and if the type exists, then you should get b
 Types:
 
 ```json
-jokeType: "Food",
-jokeType: "Math",
-jokeType: "Movies",
-jokeType: "Puns",
-jokeType: "Science",
-jokeType: "Sports",
-jokeType: "Wordplay",
+"jokeType": "Food",
+"jokeType": "Math",
+"jokeType": "Movies",
+"jokeType": "Puns",
+"jokeType": "Science",
+"jokeType": "Sports",
+"jokeType": "Wordplay",
 ```
 
 Example request:
@@ -79,7 +79,7 @@ GET http://localhost:3000/jokes?type=Science
 Path Parameters:
 
 ```json
-type: "Science"
+"type": "Science"
 ```
 
 Example response:
@@ -114,8 +114,8 @@ POST http://localhost:3000/submit
 Body:
 
 ```json
-type: "Science"
-text: "You can't trust atoms! They make up everything!"
+"type": "Science"
+"text": "You can't trust atoms! They make up everything!"
 ```
 
 Example response:
@@ -140,14 +140,14 @@ PUT localhost:3000/replace/:id
 Path Variable:
 
 ```json
-id: 1
+"id": 1
 ```
 
 Body:
 
 ```json
-type: "Math"
-text: "Example math joke"
+"type": "Math"
+"text": "Example math joke"
 ```
 
 Example request:
@@ -172,13 +172,13 @@ PATCH localhost:3000/patch/:id
 Path Variable:
 
 ```json
-id: 1
+"id": 1
 ```
 
 Body:
 
 ```json
-type: "Science"
+"type": "Science"
 ```
 
 Example response:
@@ -203,7 +203,7 @@ DELETE localhost:3000/delete/:id
 Path Variable:
 
 ```json
-id: 1
+"id": 1
 ```
 
 Example response:
@@ -230,7 +230,7 @@ DELETE localhost:3000/wipe?key=xxx
 Query params:
 
 ```json
-key: "xxx"
+"key": "xxx"
 ```
 
 Example response:
